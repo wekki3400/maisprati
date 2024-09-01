@@ -9,7 +9,7 @@ let media
 do {
     num = Number(prompt('Insira um numero (0 para sair): '))
     soma = soma + num
-    counter++
+    counter++ 
 }while(num != 0) 
 
 media = soma / (counter - 1)
